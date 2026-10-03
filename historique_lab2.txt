@@ -1,0 +1,87 @@
+    1  cd ~
+    2  vim .bashrc
+    3  . .bashrc
+    4  git config --global alias.lgone 'log --oneline --decorate'
+    5  mkdir -p website/{site-prod,site-dev}
+    6  cd website
+    7  git init
+    8  echo '<h1>Hello World!<h1\>' > site-prod/index.html
+    9  git add -A
+   10  git status
+   11  git commit -q -m "The beginnings of my web site."
+   12  git lgone
+   13  git branch
+   14  git branch new-features
+   15  git branch
+   16  git lgone
+   17  git checkout new-features
+   18  git branch
+   19  echo 'Contact :
+
+mosbahimenallah271204@gmail.com' > site-dev/contact.html
+   20  git status
+   21  git add -A
+   22  git status
+   23  git commit -m "Added contact.html file"
+   24  git lgone
+   25  echo 'Help : God bless you' > site-dev/help.html
+   26  git add -A
+   27  git status
+   28  git commit -m "Added help.html file"
+   29  git lgone
+   30  git checkout master
+   31  git lgone
+   32  git checkout -b php-features
+   33  git branch
+   34  vim site-dev/index.php
+   35  mkdir -p site-dev
+   36  vim site-dev/index.php
+   37  cat site-dev/index.php
+   38  git status
+   39  git add -A
+   40  git commit -m "Added index.php"
+   41  git lgone
+   42  git checkout master
+   43  vim README.md
+   44  cat README.md
+   45  vim README.md
+   46  cat README.md
+   47  vim site-prod/index.html
+   48  cat site-prod/index.html
+   49  git add -A
+   50  git status
+   51  git commit -m "Added html skeleton to index.html and REDME.md"
+   52  git lgone
+   53  git merge new-features
+   54  git commit --amend -m "Merge branch 'new-features' Adding Contact and Help files"
+   55  git lgone
+   56  git lgone --graph
+   57  find . -path ./.git -prune -o -print
+   58  git branch -d new-features
+   59  git branch
+   60  git tag v0.1 8638a0f
+   61  git lgone
+   62  git log --oneline --decorate --graph --all
+   63  git checkout php-features
+   64  vim README.md
+   65  cat README.md
+   66  git add -A
+   67  git commit -m "Added README.md file"
+   68  git checkout master
+   69  git log --oneline --decorate --graph --all
+   70  git merge php-features
+   71  git status
+   72  vim README.md
+   73  vim README.md
+   74  cat README.md
+   75  git status
+   76  git add -A
+   77  git status
+   78  git commit
+   79  git log --oneline --decorate --graph
+   80  gitk --all
+   81  :
+   82  q,dl
+   83  cd ~/website
+   84  cd ~/website
+   85  history > historique_lab2.txt

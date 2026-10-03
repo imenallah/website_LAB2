@@ -1,0 +1,68 @@
+commit 8f533541591bbbcce628bce008d270a703594421
+Merge: 8638a0f e677e77
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 15:10:28 2026 +0100
+
+    Merge branch 'php-features'
+
+commit e677e77141087978acb432544716037b6dda45b9
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 15:05:58 2026 +0100
+
+    Added README.md file
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 8638a0f5bb5e22973f8d45579efbe4fe087e87bd
+Merge: 3c8e799 f14d217
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 14:56:58 2026 +0100
+
+    Merge branch 'new-features' Adding Contact and Help files
+
+commit 3c8e7993153f74e0fe33507c6bce7e5183077f65
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 14:55:45 2026 +0100
+
+    Added html skeleton to index.html and REDME.md
+
+ README.md            |  1 +
+ site-prod/index.html | 12 +++++++++++-
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+
+commit 4511b7333272ab2a072dba88c346bfadea71ddc7
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 14:49:23 2026 +0100
+
+    Added index.php
+
+ site-dev/index.php | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit f14d217883335792cd56d803f4f624aa48cc362b
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 13:59:00 2026 +0100
+
+    Added help.html file
+
+ site-dev/help.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit e7a1a8c87df3f185d843b5567b1d06659d6a518d
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 13:58:13 2026 +0100
+
+    Added contact.html file
+
+ site-dev/contact.html | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit f4809bf2fe4d83f4bde2aaed0bac77e0d98665e0
+Author: imenallah mosbah <mosbahimenallah271204@gmail.com>
+Date:   Sat Oct 3 13:54:07 2026 +0100
+
+    The beginnings of my web site.
+
+ site-prod/index.html | 1 +
+ 1 file changed, 1 insertion(+)
